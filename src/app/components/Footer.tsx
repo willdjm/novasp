@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaPhone, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaLinkedin, FaFacebook, FaTiktok, FaChevronLeft, FaChevronRight, FaPhoneAlt } from 'react-icons/fa';
+import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaFacebook, FaTiktok, FaChevronRight, FaPhoneAlt } from 'react-icons/fa';
 import { TfiLinkedin } from 'react-icons/tfi';
 
 export function Footer() {
@@ -10,7 +10,9 @@ export function Footer() {
 
           {/* Primeira coluna */}
           <div className="flex flex-col items-start md:gap-5 gap-3 w-full md:w-1/3">
+          <picture>
             <img src="/logo-footer.png" alt="Logo" className="md:mb-4 w-32 md:w-auto" />
+            </picture>
             <div className='md:text-xl text-base'>
               <p className="uppercase">O JEITO</p>
               <p className="uppercase italic">NOVA SÃO PAULO</p>
@@ -112,7 +114,9 @@ export function Footer() {
 
           {/* Primeira coluna */}
           <div className="flex flex-row md:flex-col items-start md:gap-5 gap-3 w-full md:w-1/3 justify-between">
+          <picture>
             <img src="/logo-footer.png" alt="Logo" className="md:mb-4 w-32 md:w-auto" />
+            </picture>
             <div className='md:text-xl text-base'>
               <p className=" uppercase">O JEITO </p>
               <p className=" uppercase italic">NOVA SÃO PAULO </p>
@@ -212,8 +216,7 @@ export function Footer() {
                 <img
                   src="/logo-sacorp.svg"
                   alt="logo Sacorp"
-                  width={100}
-                  height={100}
+
                   loading="lazy"
                   className="lg:w-16 w-14"
                 />
@@ -228,8 +231,7 @@ export function Footer() {
                 <img
                   src="/logo-gukenz.svg"
                   alt="logo Gukenz"
-                  width={100}
-                  height={100}
+
                   className="lg:w-16 w-14"
                 />
               </picture>
